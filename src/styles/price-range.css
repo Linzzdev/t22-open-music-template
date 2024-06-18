@@ -1,0 +1,56 @@
+.priceFilterContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 164px;
+    width: 100%;
+    align-items: center;
+}
+
+.priceFilterTitle{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.labelPrice{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--gray-2);
+}
+
+.priceAt{
+    color: var(--gray-2);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.priceNum{
+    color: var(--brand-1);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+
+#priceRange{
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+    width: 100%;
+    outline: none;
+    background-color: var(--brand-1);
+    border-radius: 0.5rem;
+    height: 0.5rem;
+  }
+  
+  #priceRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 30px;
+    width: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 0.5rem solid var(--brand-1);
+  }
+

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Nunito:wght@600&display=swap");
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./genres.css");
+@import url("./price-range.css");
+@import url("./albums.css");
+@import url("./index.css");
+
+:root {
+    --brand-1: #6F00FF;
+    --brand-2: #8629FF;
+    --font-family: "Inter", sans-serif;
+    --gray-1: #15171A;
+    --gray-2: #212529;
+    --gray-3: #2B2F33;
+    --gray-4: #CED4DA;
+    --gray-5: #DEE2E6;
+    --gray-6: #F1F3F5;
+    --gray-7: #F8F9FA;
+    --gray-8: #FDFEFF;
+  }
+
+  .darkMode:root{
+    --brand-1: #6F00FF;
+    --brand-2: #8629FF;
+    
+    --gray-1: #FDFEFF;
+    --gray-2: #F8F9FA;
+    --gray-3: #F1F3F5;
+    --gray-4: #DEE2E6;
+    --gray-5: #CED4DA;
+    --gray-6: #2B2F33;
+    --gray-7: #212529;
+    --gray-8: #15171A;
+}
+
+body{
+    font-family: var(--font-family);
+    background-color: var(--gray-8);
+}

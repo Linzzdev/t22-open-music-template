@@ -1,0 +1,32 @@
+.headerOpen{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+    align-items: center;
+    height: 144PX;
+    border-bottom: 3px solid var(--brand-2);
+}
+
+.openTitle{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--gray-2);
+}
+
+.magicTitle{
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--brand-1);
+}
+
+.buttonMode{
+    height: 36px;
+    width: 44px;
+    border: 1px solid var(--gray-6) ;
+    background-color: var(--gray-6);
+    border-radius: 5px;
+    background-image: url('../assets/icons/darkmodeicon.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}

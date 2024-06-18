@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Music</title>
+    <Link rel="stylesheet" href="./src/styles/globalStyles.css">
+        <script src="./src/scripts/index.js" type="module" defer></script>
+</head>
+    <!-- CABEÇALHO -->
+    <body>
+        <!-- CABEÇALHO -->
+        <header class="headerOpen" >
+            <h1 class="openTitle"><span class="magicTitle"  >o</span>pen<span class="magicTitle"  >m</span>usic</h1>
+            <button class="buttonMode"></button>
+        </header>
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="mainContainer" >
+            <section class="genreContainer">
+                <h2 class="containerTitle" >Genero Musical</h2>
+                <div class="genreButtonContainer" >
+                    <button class="genreAll">Todos</button>
+                    <button class="genrePop" >Pop</button>
+                    <button class="genreMpb">MPB</button>
+                    <button class="genreForro">Forró</button>
+                    <button class="genreSamba">Samba</button>
+                    <button class="genreBaiao">Baião</button>
+                    <button class="genreRap">Rap</button>
+                    <button class="genreHipHop">Hip-Hop</button>
+                </div>
+            </section>
+            <!-- SEÇÃO DE FILTRO POR PREÇO -->
+            <section class="priceFilterContainer">
+                <div class="priceFilterTitle">
+                    <label for="price">Definir Preço</label>
+                    <p class="priceAt">Até <span class="priceNum">R$150</span></p>
+                </div>
+                <input type="range" id="priceRange" min="0" max="150" value="150">
+            </section>
+            <section class="albumsSection">
+                <h1 class="searchAlbuns">Albuns Encontrados</h1>
+                <div id="album-container"></div> <div id="album-container"></div>
+                </section>
+        </main>
+    </body>
+
+</html>
