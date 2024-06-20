@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Open Music</title>
-    <Link rel="stylesheet" href="./src/styles/globalStyles.css">
+    <link rel="stylesheet" href="./src/styles/globalStyles.css">
         <script src="./src/scripts/index.js" type="module" defer></script>
 </head>
     <!-- CABEÇALHO -->
@@ -13,7 +13,7 @@
         <!-- CABEÇALHO -->
         <header class="headerOpen" >
             <h1 class="openTitle"><span class="magicTitle"  >o</span>pen<span class="magicTitle"  >m</span>usic</h1>
-            <button class="buttonMode"></button>
+            <button class="buttonMode" onclick="toggleTheme()" ></button>
         </header>
         <!-- CONTEÚDO PRINCIPAL -->
         <main class="mainContainer" >
@@ -33,7 +33,7 @@
             <!-- SEÇÃO DE FILTRO POR PREÇO -->
             <section class="priceFilterContainer">
                 <div class="priceFilterTitle">
-                    <label for="price">Definir Preço</label>
+                    <label for="price" class="priceLabel" >Definir Preço</label>
                     <p class="priceAt">Até <span class="priceNum">R$150</span></p>
                 </div>
                 <input type="range" id="priceRange" min="0" max="150" value="150">

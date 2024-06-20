@@ -20,10 +20,9 @@
     --gray-8: #FDFEFF;
   }
 
-  .darkMode:root{
+  .darkMode{
     --brand-1: #6F00FF;
     --brand-2: #8629FF;
-    
     --gray-1: #FDFEFF;
     --gray-2: #F8F9FA;
     --gray-3: #F1F3F5;

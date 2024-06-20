@@ -31,3 +31,9 @@
     font-weight: 500;
     color: var(--gray-3);
 }
+
+.genreButtonContainer > button:hover{
+    background-color: var(--gray-2);
+    color: var(--gray-7);
+}
+
