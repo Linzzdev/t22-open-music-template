@@ -3,7 +3,7 @@ export function applyInputRangeStyle() {
     const valueSpan = document.querySelector('.priceNum');
 
     function updateValueSpan() {
-        valueSpan.textContent = `R$ ${inputRange.value},00`;
+        valueSpan.textContent = `R$ ${inputRange.value}.00`;
       }
   
     inputRange.addEventListener("input", (event) => {
